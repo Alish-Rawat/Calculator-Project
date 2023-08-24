@@ -1,0 +1,49 @@
+#background {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 40px;
+}
+
+#calculator-text {
+  background-color: black;
+  height: 40px;
+  margin: 12px;
+}
+
+#text {
+  font-size: 20px;
+  font-weight: 900;
+  color: aliceblue;
+  text-align: center;
+  padding: 8px;
+}
+
+#result {
+  background-color: aliceblue;
+  height: 35px;
+  margin: 12px;
+  width: 90%;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Gill Sans";
+}
+
+#buttons {
+  height: 225px;
+  background-color: indianred;
+  margin: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-size {
+  width: 25%;
+  height: 20%;
+}
+
+.button-size:nth-child(4n) {
+  background-color: rgb(163, 45, 45);
+}
